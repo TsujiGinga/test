@@ -74,7 +74,7 @@ p {
 
 .pages_controller.home_action section.header .tagline {
     font-size: 1.8rem;
-    color: #fff;
+    color: #000;
     margin: 16px 6vmin 24px;
     animation: fadeIn 2s ease 0.2s 1 normal
 }
@@ -205,7 +205,8 @@ p {
 @media screen and (min-width: 767px) {
     .pages_controller.home_action section.price .container .wrap {
         width: 400px;
-        margin: 0 auto
+        margin: 0 auto;
+        background: #343434;
     }
 }
 
